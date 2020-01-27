@@ -3,12 +3,7 @@ result = {}
 a = data.map { |key, value|
   value.map { |attribute, stats|
    stats.map { |name|
-   
+    name
   }
-    if key
-      result = value
-    end
-  end
-}
-result
+a
 end
