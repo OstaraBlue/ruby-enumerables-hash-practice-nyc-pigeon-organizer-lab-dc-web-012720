@@ -10,7 +10,7 @@ data.each {|key, value|
     if !result[name][key]
       result[name][key] = []
     end
-  
+  result
     }
   }
   }
