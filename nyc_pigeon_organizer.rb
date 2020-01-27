@@ -7,5 +7,4 @@ a = data.map { |key, value|
       }
     }
   }
-result = a
 end
