@@ -10,7 +10,7 @@ data.each {|key, value|
       if !result[name][key]
         result[name][key] = []
       end
-      result << new_value.to_s
+      result[name][key] << new_value.to_s
     }
   }
   }
