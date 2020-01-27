@@ -1,6 +1,8 @@
 def nyc_pigeon_organizer(data)
-  # write your code here!
 result = {}
-data.each { |key, value|
-  if 
+a = data.map { |key, value|
+  if key == :gender
+    value  
+  end
+}
 end
