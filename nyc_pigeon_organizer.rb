@@ -1,6 +1,11 @@
 def nyc_pigeon_organizer(data)
- a =  data[:gender].map { |g, n|
-    n
-  }
-   p a
+result = {}
+a = data.map { |key, value| 
+  if key == :gender
+    value.map { |g, names| 
+      names
+    }
+  end
+}
+result
 end
