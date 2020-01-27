@@ -4,14 +4,15 @@ data.each {|key, value|
   value.each {|new_value, names|
     names.each {|name|
     p new_value
-    if !result[name]
-      result[name] = {}
-    end
-    if !result[name][key]
-      result[name][key] = []
-    end
-  result << new_value.to_s
+      if !result[name]
+        result[name] = {}
+      end
+      if !result[name][key]
+        result[name][key] = []
+      end
+      result << new_value.to_s
     }
   }
   }
+  result
 end
