@@ -3,7 +3,7 @@ result = {}
 a = data.map { |key, value| 
   if key == :gender
     value.map { |g, names| 
-      result =  names
+      names
     }
   end
 }
