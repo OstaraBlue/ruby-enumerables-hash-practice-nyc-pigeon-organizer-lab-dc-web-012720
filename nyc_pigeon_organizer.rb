@@ -3,7 +3,7 @@ result = {}
 data.each {|key, value|
   value.each {|new_value, names|
     names.each {|name|
-    
+    p new_value
     if !result[name]
       result[name] = {}
     end
