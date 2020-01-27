@@ -4,6 +4,6 @@ a = data.map { |key, value|
   if key == :gender
     value  
   end
-}
 a
+}
 end
