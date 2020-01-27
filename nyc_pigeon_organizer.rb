@@ -6,7 +6,8 @@ data.each {|key, value|
     
     if !result[name]
       result[name] = {}
-      
+    end
+    if !result
     }
   }
   }
