@@ -8,7 +8,9 @@ data.each {|key, value|
       result[name] = {}
     end
     if !result[name][key]
-      result[name][key]
+      result[name][key] = []
+    end
+  
     }
   }
   }
