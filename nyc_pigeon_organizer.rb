@@ -5,4 +5,5 @@ a = data.map { |key, value|
     value  
   end
 }
+a
 end
